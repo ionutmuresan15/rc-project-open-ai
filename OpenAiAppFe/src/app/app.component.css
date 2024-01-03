@@ -1,0 +1,32 @@
+.container{
+    margin: 10px 50px;
+    padding: 15px 15px;
+}
+
+.example-full-width {
+    width: 100%;
+ }
+
+ button{
+    float: right;
+ }
+
+ p{
+    font-weight: bold;
+    font-family: "Times New Roman", Times, serif;
+    font-size: large;
+    color: #488aff
+ }
+
+ h1{
+    font-family: "Times New Roman", Times, serif;
+    color: #488aff;
+    font-weight: bold;
+ }
+
+ .custom-class{
+    font-weight: bold;
+    font-family: "Times New Roman", Times, serif;
+    font-size: large;
+    color: rgb(128, 128, 128)
+ }

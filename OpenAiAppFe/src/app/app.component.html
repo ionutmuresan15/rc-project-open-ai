@@ -1,0 +1,22 @@
+
+<div class="container">
+  <h1>Chat GPT Application</h1>
+  <br>
+    <mat-form-field class="example-full-width">
+      <mat-label>Question to ask</mat-label>
+      <input matInput placeholder="Message ChatGPT..." [(ngModel)]="searchTxtVal">
+      <button mat-raised-button color="primary" (click)="handleGetResultButton()">Get Result</button>
+    </mat-form-field>
+  <div *ngIf="showOutput"> 
+    <div *ngFor="let choice of output.choices" [ngClass]="'custom-class'">
+      {{choice.message.content}}
+    </div>
+  </div>
+  <br>
+  <div *ngIf="isLoading">
+    <p>Loading....</p>
+  </div>
+</div>  
+
+
+  
